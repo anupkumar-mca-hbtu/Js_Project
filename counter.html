@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter-App</title>
+    <script src="counter.js"></script>
+    <style>
+   #container {
+    text-align: center;
+    background-color:yellowgreen;
+    border-radius: 10%;
+    margin-left: 40%;
+    margin-right: 20%;
+    width:15%;
+   }
+   #button-box {
+    border-color: black;
+    border-radius: 40%;
+   }
+   #btn-btn-minus {
+    border-radius: 30%;
+    background-color: red;
+    font-size: large;
+   }
+   #btn-btn-plus {
+    border-radius: 30%;
+    background-color: green;
+    font-size: larger;
+   }
+    </style>
+</head>
+
+<body>
+<div id="container" >
+
+   
+    <h2 >Counter-App</h2>
+    <h3 id="root">0</h3>
+   
+
+<div id="button-box">
+    <button onclick="CountMinus()"id="btn-btn-minus">-</button> <button onclick="CountAdd()"id="btn-btn-plus">+</button>
+<p id="para"></p>
+
+</div>
+</div>
+
+</body>
+
+</html>
